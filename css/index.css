@@ -172,7 +172,7 @@ p>a:hover{
 .photography,.streetfood,.article{
     width: 30%;
     background-color: #404040;
-    box-shadow: #000;
+    border-radius: 0em 2em 6em 0em ;
 }
 .photography>img,.streetfood>img,.article>img{
     width: 100%;
