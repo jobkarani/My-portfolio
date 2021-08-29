@@ -1,3 +1,38 @@
 *{
-    background-color:#404040;
+   
+    color: white;
 }
+.header{
+    background-color:#404040;
+    height: 50px;
+}
+ .introduction{
+     background-color:  #54595F;
+ }
+ .aboutme{
+    background-color: #404040;
+ }
+ .experiences{
+     background-color: #000;
+ }
+ .projects{
+     background-color:#666666 ;
+ }
+ .contact{
+    background-color: #333;
+ }
+ nav ul{
+    list-style-type: none; 
+    display: flex;
+    justify-content: space-evenly;
+ } 
+ li a{
+     color: white;
+     text-decoration: none;
+    
+ }
+ li a:hover{
+     color: orange;
+     padding: 5px 5px;
+     background-color: #666666;
+ }
