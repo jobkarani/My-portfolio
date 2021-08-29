@@ -2,6 +2,10 @@
    box-sizing: border-box;
     color: white;
 }
+h2{
+    color: aqua;
+    font-family: monospace;
+}
 .header{
     background-color:#404040;
     height: 50px;
@@ -23,16 +27,16 @@ nav ul{
     justify-content: space-evenly;
  } 
  li a{
-     color: white;
+     color: aqua;
      text-decoration: none;
      position: relative;
      top: -10px;
     
  }
  li a:hover{
-     color: orange;
+     color: white;
      padding: 5px 5px;
-     background-color: #666666;
+     background-color: orange;
  }
  .introduction{
      background-color:  #54595F;
@@ -88,6 +92,44 @@ p>a:hover{
  }
  .experiences{
      background-color: #000;
+     height: 450px;
+ }
+ .experiences h2{
+    text-align: center;
+ }
+ .census{
+    height: 300px;
+    width: 430px;
+    display: block;
+    justify-content: space-around; 
+    background-color: #6EC1E4;
+     opacity: 0.7;
+     margin-right: 15px;
+     border-radius: 1em 3em 5em 2em;
+     padding: 0.2em 2em 0.2em 2em;
+    position: relative;
+    left: 100px;
+ }
+ .compways{
+    height: 400px;
+    width: 430px;
+    display: block;
+    justify-content: space-around; 
+    background-color: #0cf853;
+     opacity: 0.7;
+     margin-right: 15px;
+     border-radius: 1em 3em 5em 2em;
+     padding: 0.2em 2em 0.2em 2em;
+    float: right;
+    position: relative;
+    top: -330px;
+    left: -60px;
+ }
+ .compways:hover,.census:hover{
+     background-color: orange;
+ }
+ h3,h4{
+     color: #000;
  }
  .projects{
      background-color:#666666 ;
