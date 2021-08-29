@@ -1,27 +1,12 @@
 *{
-   
+   box-sizing: border-box;
     color: white;
 }
 .header{
     background-color:#404040;
     height: 50px;
 }
- .introduction{
-     background-color:  #54595F;
- }
- .aboutme{
-    background-color: #404040;
- }
- .experiences{
-     background-color: #000;
- }
- .projects{
-     background-color:#666666 ;
- }
- .contact{
-    background-color: #333;
- }
- nav ul{
+nav ul{
     list-style-type: none; 
     display: flex;
     justify-content: space-evenly;
@@ -36,4 +21,44 @@
      padding: 5px 5px;
      background-color: #666666;
  }
+ .introduction{
+     background-color:  #54595F;
+     display: flex;
+     align-items: center;
+     text-align: center;
+ }
+ h1{
+    color: orange;
+    position: relative;
+    top: -57px;
+    left: 40px;
+}
+p>a{
+    color: #000;
+}
+p>a:hover{
+    color: aqua;
+}
+.hey{
+    position: relative;
+    right: -400px;
+}
+.introduction>img{
+    position: relative;
+    right: -200px;
+}
+
+ .aboutme{
+    background-color: #404040;
+ }
+ .experiences{
+     background-color: #000;
+ }
+ .projects{
+     background-color:#666666 ;
+ }
+ .contact{
+    background-color: #333;
+ }
+
  
