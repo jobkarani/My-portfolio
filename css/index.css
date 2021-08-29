@@ -1,6 +1,6 @@
 *{
-   box-sizing: border-box;
     color: white;
+    align-items: center;
 }
 h2{
     color: aqua;
@@ -160,8 +160,22 @@ p>a:hover{
      background-color: orange;
      border-radius: 0.2rem;
  }
- .contact{
+ #Contact{
     background-color: #333;
  }
-
- 
+.contact>h2{
+    text-align: center;
+}
+.contact>form{
+    text-align: center;
+    color:black;
+}
+.mid>p{
+    font-size: larger;
+    font-weight: 600;
+    font-family: fantasy;
+    color: orange;
+    position: relative;
+    bottom: -150px;
+    left: 150px;
+}
