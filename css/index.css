@@ -184,6 +184,9 @@ p>a:hover{
      background-color: orange;
      border-radius: 0.2rem;
  }
+ a.btn:hover{
+     color: aqua;
+ }
  #Contact{
     background-color: #333;
  }
