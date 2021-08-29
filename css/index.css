@@ -132,15 +132,23 @@ p>a:hover{
  h3,h4{
      color: #000;
  }
- #projects{
+ #Projects{
      background-color:#666666 ;
+     height: 400px;
+     width: 100%;
  }
- .projects h2{
+ .projects{
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+    }
+ #Projects h2{
     text-align: center;
- }
+}
 .photography,.streetfood,.article{
     width: 30%;
     background-color: #404040;
+    box-shadow: #000;
 }
 .photography>img,.streetfood>img,.article>img{
     width: 100%;
@@ -148,14 +156,10 @@ p>a:hover{
 }
  a.btn{
      text-align: center;
-     padding: 3px 3px 3px 3px;
+     padding: 3px 6px 3px 5px;
      background-color: orange;
      border-radius: 0.2rem;
  }
-.mid{
-    background-color: black;
-    height: 40px;
-}
  .contact{
     background-color: #333;
  }
