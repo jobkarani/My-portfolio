@@ -101,7 +101,7 @@ p>a:hover{
      position: relative;
      right: -60px;
  }
- i:hover{
+ i{
      color:aqua;
  }
  .experiences{
