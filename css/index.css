@@ -150,6 +150,14 @@ p>a:hover{
      justify-content: space-evenly;
      align-items: center;
     }
+    .projects>.photography{
+        position: relative;
+        left: -50px;
+    }
+    .projects>.streetfood{
+        position: relative;
+        left: 50px;
+    }
     .margin{
         margin-left: 350px;
     }
@@ -180,6 +188,9 @@ p>a:hover{
 .contact>form{
     text-align: center;
     color:black;
+}
+.color{
+    color: black;
 }
 .mid>p{
     font-size: larger;
